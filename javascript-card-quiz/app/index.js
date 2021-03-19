@@ -14,22 +14,19 @@ let score = 0;
 startButton.addEventListener("click", startQuiz);
 
 function startQuiz() {
-  section.remove("show");
-  sectionEnd.classList.remove("show");
-  sectionQuiz.classList.add("show");
-  showQuiz(quizCurrent, correctCount);
-  totalScore.textContent = quizTotalIndex;
-  countScore.textContent = score;
-  showQuiz(quizCurrentIndex);
+  // section.remove("show");
+  // sectionEnd.classList.remove("show");
+  // sectionQuiz.classList.add("show");
+  // showQuiz(quizCurrent, correctCount);
+  // totalScore.textContent = quizTotalIndex;
+  // countScore.textContent = score;
+  // showQuiz(quizCurrentIndex);
+  console.log("startQuiz 함수 실행")
 }
-
-
-
 
 if (dataIndex === 21) {
   resultOfQuiz();
 }
-
 
 function printQuiz() {
     const startButtonCheck = document.querySelector(".start-button");
