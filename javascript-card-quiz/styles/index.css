@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+
+.main-logo {
+  display: block;
+  width: 240px;
+  margin: 3em auto;
+}
+
+.board {
+  border: 20px solid dodgerblue;
+  width: 700px;
+  height: 700px;
+  align-self: center;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.layout1{
+  width: 300px;
+  float: left;
+  padding: 10px;
+  margin-top: 160px;
+  margin-left: 20px;
+}
+
+.layout2 {
+  width: 330px;
+  float: right;
+  text-align: right;
+  padding: 10px;
+  margin-top: 150px;
+  margin-left: 10px;
+}
+
+.img1{
+  width: 300px; 
+  height: 300px;
+}
+
+.title {
+  font-style: italic;
+  font-size: 40px;
+  margin-right: 40px;
+}
+
+.explanation {
+  font-style: normal;
+  font-size: 11px;
+  margin-right: 40px;
+}
+
+.quiz-score {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.quiz-title .quiz-code {
+
+}
+
+quiz-container__score span:nth-child(2) {
+  margin-left: 10px;
+}
+
+.answer-example {
+  display: flex;
+  flex-direction: column;
+}
+
+.start-button{
+  width: 150px;
+  height: 60px;
+  margin-right: 40px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  border: 5px solid dodgerblue;
+  background-color: white;
+}
+
+.game-start__button--hide {
+  display: none;
+}
+
+.quiz-container__choices button {
+  font: inherit;
+  vertical-align: baseline;
+}

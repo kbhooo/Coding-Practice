@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JS Quiz Project</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <img class="main-logo" src="./images/vc.png" alt="Vanilla Coding Logo" />
+    <h1>JavaScript Card Quiz</h1>
+
+      <div class="board">
+        <section>
+          <div class="layout1">
+            <img class="img1" src="images/quiz.jpg">
+          </div>
+
+          <div class="layout2">
+            <div class="title">
+              <p>Java Script <br> Quiz</p>
+            </div>
+            <div class="explanation">
+              <p>The test contains 10 questions and there is no time limit.<br>
+                 It's just a nice wa to see how much you know, or don't<br>
+                 know, about JavaScript. you will get 10 point for each<br>
+                 correct answer.<br>
+                 At the end of the Quiz, your total score will be displayed.<br>
+                 Maximum score is 100 point.
+              </p>
+            </div>
+            <button class="start-button">
+              <p>GAME START</p>
+            </button>
+          </div>
+        </section>
+      
+        <div class="quiz-screen">
+          <div class="quiz-score"></div>
+          <div class="quiz-timer"></div>
+        
+          <div class="quiz-title">
+            <span class="quiz-question"></span>
+            <span class="quiz-code"></span>
+          </div>
+
+          <div class="answer"></div>
+        </div>
+
+
+    <script src="./app/index.js"></script>
+  </body>
+</html>
